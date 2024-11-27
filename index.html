@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño de Estadios de Fútbol 2D con Perspectiva 3D</title>
+  <style>
+    body { margin: 0; padding: 0; }
+    canvas { display: block; margin: 20px auto; background-color: #f0f0f0; }
+    button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+    }
+    button:hover { background-color: #45a049; }
+  </style>
+</head>
+<body>
+  <h1>Diseña tu Estadio en 2D con Perspectiva 3D</h1>
+  <div>
+    <button id="addStands">Agregar Gradas</button>
+    <button id="addGoal">Agregar Portería</button>
+    <button id="addLight">Agregar Torre de Luz</button>
+    <button id="reset">Reiniciar Estadio</button>
+  </div>
+  
+  <canvas id="stadiumCanvas" width="800" height="600"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
